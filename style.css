@@ -127,3 +127,28 @@ input {
   display: flex;
   flex-direction: column;
 }
+
+.fieldset-wrapper legend {
+  margin-top: 32px;
+  text-align: center;
+}
+
+hr {
+  width: 622px;
+  height: 1px;
+
+  background: #E6E6F0;
+
+  margin-bottom: 32px;
+}
+
+.select_instructor {
+  width: 300px;
+  height: 56px;
+
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+
+  padding: 3px;
+}
