@@ -63,7 +63,7 @@
               <legend>INFORMAÇÕES DO MENTOR</legend>
               <hr  />
 
-              <div class="input-wrapper-mentoria">
+              <div class="input-wrapper">
                 <label for="event-select">Selecione quem foi seu mentor</label>
                  <select name="" id="event-select" class="select_instructor">
                   <option value="disable" disabled selected></option>
@@ -83,10 +83,38 @@
                 <input type="checkbox" name="" id="event-check">
                 <label for="event-check"> Todas as minhas dúvidas foram esclarecidas durante a mentoria</label>
               </div>
-
             </div>
         </fieldset>
 
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>AGENDANDO PRÓXIMA MENTORIA</legend>
+
+            <hr />
+
+            <div class="cols-3">
+              <div class="input-wrapper ">
+                <label for="event-date">
+                  Data <span>(DD/MM/AAAA)</span>
+                </label>
+
+                <input type="date" name="" id="event-date">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="event-time-das">Das</label>
+                <input type="time" name="" id="event-time-das">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="event-time-ate">Até</label>
+                <input type="time" name="" id="event-time-ate">
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <button type="submit">SALVAR</button>
       </form>
     </div>
   </body>
